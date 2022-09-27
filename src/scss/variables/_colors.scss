@@ -1,0 +1,12 @@
+:root {
+	--hue-shift: 0deg;
+
+	@include generateHSLCustomPropertiesFromColor('palette-black', #000);
+	@include generateHSLCustomPropertiesFromColor('palette-blue', #0092c7);
+	@include generateHSLCustomPropertiesFromColor('palette-dull-black', #1a1a1a);
+	@include generateHSLCustomPropertiesFromColor('palette-white', #fff);
+
+	--brand-primary-color: var(--palette-blue);
+	--background-color: var(--palette-dull-black);
+	--text-color: var(--palette-white);
+}
